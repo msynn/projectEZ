@@ -40,8 +40,8 @@
                             <td><?php echo $data["kelas"]?></td>
                             <td><?php echo $data["angkatan"]?></td>
                             <td>
-                                <button class="bg-danger text-light">edit</button>
-                                <a href="edit-mhs.php?nim=<?php echo $data["nim"] ?>">edit</a>
+                                
+                                <a href="edit-mhs.php?nim=<?php echo $data["nim"] ?>"><button class="bg-danger text-light">edit</button></a>
                             </td>
                         </tr>
                     <?php }
